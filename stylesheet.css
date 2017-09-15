@@ -1,0 +1,77 @@
+html {
+  font-size: 14px;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
+
+body {
+  background: #FAFAFA;
+  /*background-image: url('./background/cloth.png');
+  height: 30vh;
+  background-position: center;*/
+}
+
+h1, p {
+  color: #424242;
+}
+
+.full-page {
+  height: 100vh;
+}
+
+.shaw {
+  color: silver;
+}
+
+.spread {
+  padding: 0px 10px 0px 10px;
+}
+
+a:visited {
+  color: #afa73c !important;
+}
+
+a:active {
+  color: #424242 !important;
+}
+
+a {
+  color: #afa73c !important;
+}
+
+
+/*.bg-image {*/
+
+
+/* Background pattern from Subtle Patterns */
+
+
+/*background-image: url('../background/cloth.png');*/
+
+
+/*height: 30vh;*/
+
+
+/*background-position: center;*/
+
+
+/*background-size: cover;*/
+
+
+/*}*/
